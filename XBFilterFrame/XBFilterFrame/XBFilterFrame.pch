@@ -1,0 +1,14 @@
+//
+//  XBFilterFrame.pch
+//  XBFilterFrame
+//
+//  Created by WYZ on 16/7/1.
+//  Copyright © 2016年 com.WYZ. All rights reserved.
+//
+
+#ifndef XBFilterFrame_pch
+#define XBFilterFrame_pch
+
+#import "XBCommonHeader.h"
+
+#endif /* XBFilterFrame_pch */

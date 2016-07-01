@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880CF60C1D264BDF006E2916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF60B1D264BDF006E2916 /* main.m */; };
+		880CF60F1D264BDF006E2916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF60E1D264BDF006E2916 /* AppDelegate.m */; };
+		880CF6121D264BDF006E2916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6111D264BDF006E2916 /* ViewController.m */; };
+		880CF6151D264BDF006E2916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880CF6131D264BDF006E2916 /* Main.storyboard */; };
+		880CF6181D264BDF006E2916 /* XBFilterFrame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6161D264BDF006E2916 /* XBFilterFrame.xcdatamodeld */; };
+		880CF61A1D264BDF006E2916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880CF6191D264BDF006E2916 /* Assets.xcassets */; };
+		880CF61D1D264BDF006E2916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880CF61B1D264BDF006E2916 /* LaunchScreen.storyboard */; };
+		880CF6281D264BDF006E2916 /* XBFilterFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6271D264BDF006E2916 /* XBFilterFrameTests.m */; };
+		880CF6331D264BDF006E2916 /* XBFilterFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6321D264BDF006E2916 /* XBFilterFrameUITests.m */; };
+		880CF64E1D264C15006E2916 /* XBFilterFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6421D264C15006E2916 /* XBFilterFrame.m */; };
+		880CF64F1D264C15006E2916 /* XBFilterFrameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6441D264C15006E2916 /* XBFilterFrameCell.m */; };
+		880CF6501D264C15006E2916 /* XBFilterFrameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880CF6451D264C15006E2916 /* XBFilterFrameCell.xib */; };
+		880CF6511D264C15006E2916 /* XBFilterFrameParamMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6471D264C15006E2916 /* XBFilterFrameParamMaker.m */; };
+		880CF6521D264C15006E2916 /* XBFilterFrameSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6491D264C15006E2916 /* XBFilterFrameSectionFooter.m */; };
+		880CF6531D264C15006E2916 /* XBFilterFrameSectionFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880CF64A1D264C15006E2916 /* XBFilterFrameSectionFooter.xib */; };
+		880CF6541D264C15006E2916 /* XBFilterFrameSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF64C1D264C15006E2916 /* XBFilterFrameSectionHeader.m */; };
+		880CF6551D264C15006E2916 /* XBFilterFrameSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880CF64D1D264C15006E2916 /* XBFilterFrameSectionHeader.xib */; };
+		880CF6581D264C6B006E2916 /* XBBasicParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6571D264C6B006E2916 /* XBBasicParams.m */; };
+		880CF65E1D264DCC006E2916 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF65D1D264DCC006E2916 /* UIView+Extension.m */; };
+		880CF6621D264EB1006E2916 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6611D264EB1006E2916 /* UIColor+Extension.m */; };
+		880CF6661D2651D4006E2916 /* XBColorDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6651D2651D4006E2916 /* XBColorDefinition.m */; };
+		880CF6691D265293006E2916 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6681D265293006E2916 /* UIButton+Extension.m */; };
+		880CF66C1D2653DB006E2916 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF66B1D2653DB006E2916 /* NSObject+Extension.m */; };
+		880CF6B41D2662E9006E2916 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 880CF6B31D2662E9006E2916 /* UIControl+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880CF6241D264BDF006E2916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880CF5FF1D264BDF006E2916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880CF6061D264BDF006E2916;
+			remoteInfo = XBFilterFrame;
+		};
+		880CF62F1D264BDF006E2916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880CF5FF1D264BDF006E2916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880CF6061D264BDF006E2916;
+			remoteInfo = XBFilterFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880CF6071D264BDF006E2916 /* XBFilterFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBFilterFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880CF60B1D264BDF006E2916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		880CF60D1D264BDF006E2916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		880CF60E1D264BDF006E2916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		880CF6101D264BDF006E2916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		880CF6111D264BDF006E2916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		880CF6141D264BDF006E2916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880CF6171D264BDF006E2916 /* XBFilterFrame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XBFilterFrame.xcdatamodel; sourceTree = "<group>"; };
+		880CF6191D264BDF006E2916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880CF61C1D264BDF006E2916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880CF61E1D264BDF006E2916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880CF6231D264BDF006E2916 /* XBFilterFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBFilterFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880CF6271D264BDF006E2916 /* XBFilterFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameTests.m; sourceTree = "<group>"; };
+		880CF6291D264BDF006E2916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880CF62E1D264BDF006E2916 /* XBFilterFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBFilterFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880CF6321D264BDF006E2916 /* XBFilterFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameUITests.m; sourceTree = "<group>"; };
+		880CF6341D264BDF006E2916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880CF6411D264C15006E2916 /* XBFilterFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrame.h; sourceTree = "<group>"; };
+		880CF6421D264C15006E2916 /* XBFilterFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrame.m; sourceTree = "<group>"; };
+		880CF6431D264C15006E2916 /* XBFilterFrameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrameCell.h; sourceTree = "<group>"; };
+		880CF6441D264C15006E2916 /* XBFilterFrameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameCell.m; sourceTree = "<group>"; };
+		880CF6451D264C15006E2916 /* XBFilterFrameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBFilterFrameCell.xib; sourceTree = "<group>"; };
+		880CF6461D264C15006E2916 /* XBFilterFrameParamMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrameParamMaker.h; sourceTree = "<group>"; };
+		880CF6471D264C15006E2916 /* XBFilterFrameParamMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameParamMaker.m; sourceTree = "<group>"; };
+		880CF6481D264C15006E2916 /* XBFilterFrameSectionFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrameSectionFooter.h; sourceTree = "<group>"; };
+		880CF6491D264C15006E2916 /* XBFilterFrameSectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameSectionFooter.m; sourceTree = "<group>"; };
+		880CF64A1D264C15006E2916 /* XBFilterFrameSectionFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBFilterFrameSectionFooter.xib; sourceTree = "<group>"; };
+		880CF64B1D264C15006E2916 /* XBFilterFrameSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrameSectionHeader.h; sourceTree = "<group>"; };
+		880CF64C1D264C15006E2916 /* XBFilterFrameSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFilterFrameSectionHeader.m; sourceTree = "<group>"; };
+		880CF64D1D264C15006E2916 /* XBFilterFrameSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBFilterFrameSectionHeader.xib; sourceTree = "<group>"; };
+		880CF6561D264C6B006E2916 /* XBBasicParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBBasicParams.h; sourceTree = "<group>"; };
+		880CF6571D264C6B006E2916 /* XBBasicParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBBasicParams.m; sourceTree = "<group>"; };
+		880CF65C1D264DCC006E2916 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		880CF65D1D264DCC006E2916 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		880CF65F1D264DF6006E2916 /* XBCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCommonHeader.h; sourceTree = "<group>"; };
+		880CF6601D264EB1006E2916 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		880CF6611D264EB1006E2916 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		880CF6631D264F28006E2916 /* XBFilterFrame.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFilterFrame.pch; sourceTree = "<group>"; };
+		880CF6641D2651D4006E2916 /* XBColorDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBColorDefinition.h; sourceTree = "<group>"; };
+		880CF6651D2651D4006E2916 /* XBColorDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBColorDefinition.m; sourceTree = "<group>"; };
+		880CF6671D265293006E2916 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		880CF6681D265293006E2916 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		880CF66A1D2653DB006E2916 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		880CF66B1D2653DB006E2916 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		880CF6B21D2662E9006E2916 /* UIControl+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		880CF6B31D2662E9006E2916 /* UIControl+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880CF6041D264BDF006E2916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF6201D264BDF006E2916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF62B1D264BDF006E2916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880CF5FE1D264BDF006E2916 = {
+			isa = PBXGroup;
+			children = (
+				880CF6091D264BDF006E2916 /* XBFilterFrame */,
+				880CF6261D264BDF006E2916 /* XBFilterFrameTests */,
+				880CF6311D264BDF006E2916 /* XBFilterFrameUITests */,
+				880CF6081D264BDF006E2916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880CF6081D264BDF006E2916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880CF6071D264BDF006E2916 /* XBFilterFrame.app */,
+				880CF6231D264BDF006E2916 /* XBFilterFrameTests.xctest */,
+				880CF62E1D264BDF006E2916 /* XBFilterFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880CF6091D264BDF006E2916 /* XBFilterFrame */ = {
+			isa = PBXGroup;
+			children = (
+				880CF6401D264C15006E2916 /* XBFilterFrame */,
+				880CF60D1D264BDF006E2916 /* AppDelegate.h */,
+				880CF60E1D264BDF006E2916 /* AppDelegate.m */,
+				880CF6101D264BDF006E2916 /* ViewController.h */,
+				880CF6111D264BDF006E2916 /* ViewController.m */,
+				880CF6631D264F28006E2916 /* XBFilterFrame.pch */,
+				880CF6131D264BDF006E2916 /* Main.storyboard */,
+				880CF6191D264BDF006E2916 /* Assets.xcassets */,
+				880CF61B1D264BDF006E2916 /* LaunchScreen.storyboard */,
+				880CF61E1D264BDF006E2916 /* Info.plist */,
+				880CF6161D264BDF006E2916 /* XBFilterFrame.xcdatamodeld */,
+				880CF60A1D264BDF006E2916 /* Supporting Files */,
+			);
+			path = XBFilterFrame;
+			sourceTree = "<group>";
+		};
+		880CF60A1D264BDF006E2916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				880CF60B1D264BDF006E2916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		880CF6261D264BDF006E2916 /* XBFilterFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				880CF6271D264BDF006E2916 /* XBFilterFrameTests.m */,
+				880CF6291D264BDF006E2916 /* Info.plist */,
+			);
+			path = XBFilterFrameTests;
+			sourceTree = "<group>";
+		};
+		880CF6311D264BDF006E2916 /* XBFilterFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880CF6321D264BDF006E2916 /* XBFilterFrameUITests.m */,
+				880CF6341D264BDF006E2916 /* Info.plist */,
+			);
+			path = XBFilterFrameUITests;
+			sourceTree = "<group>";
+		};
+		880CF6401D264C15006E2916 /* XBFilterFrame */ = {
+			isa = PBXGroup;
+			children = (
+				880CF65C1D264DCC006E2916 /* UIView+Extension.h */,
+				880CF65D1D264DCC006E2916 /* UIView+Extension.m */,
+				880CF6601D264EB1006E2916 /* UIColor+Extension.h */,
+				880CF6611D264EB1006E2916 /* UIColor+Extension.m */,
+				880CF6671D265293006E2916 /* UIButton+Extension.h */,
+				880CF6681D265293006E2916 /* UIButton+Extension.m */,
+				880CF6B21D2662E9006E2916 /* UIControl+Extension.h */,
+				880CF6B31D2662E9006E2916 /* UIControl+Extension.m */,
+				880CF66A1D2653DB006E2916 /* NSObject+Extension.h */,
+				880CF66B1D2653DB006E2916 /* NSObject+Extension.m */,
+				880CF6411D264C15006E2916 /* XBFilterFrame.h */,
+				880CF6421D264C15006E2916 /* XBFilterFrame.m */,
+				880CF6431D264C15006E2916 /* XBFilterFrameCell.h */,
+				880CF6441D264C15006E2916 /* XBFilterFrameCell.m */,
+				880CF6451D264C15006E2916 /* XBFilterFrameCell.xib */,
+				880CF6461D264C15006E2916 /* XBFilterFrameParamMaker.h */,
+				880CF6471D264C15006E2916 /* XBFilterFrameParamMaker.m */,
+				880CF6481D264C15006E2916 /* XBFilterFrameSectionFooter.h */,
+				880CF6491D264C15006E2916 /* XBFilterFrameSectionFooter.m */,
+				880CF64A1D264C15006E2916 /* XBFilterFrameSectionFooter.xib */,
+				880CF64B1D264C15006E2916 /* XBFilterFrameSectionHeader.h */,
+				880CF64C1D264C15006E2916 /* XBFilterFrameSectionHeader.m */,
+				880CF64D1D264C15006E2916 /* XBFilterFrameSectionHeader.xib */,
+				880CF6561D264C6B006E2916 /* XBBasicParams.h */,
+				880CF6571D264C6B006E2916 /* XBBasicParams.m */,
+				880CF6641D2651D4006E2916 /* XBColorDefinition.h */,
+				880CF6651D2651D4006E2916 /* XBColorDefinition.m */,
+				880CF65F1D264DF6006E2916 /* XBCommonHeader.h */,
+			);
+			path = XBFilterFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880CF6061D264BDF006E2916 /* XBFilterFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880CF6371D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrame" */;
+			buildPhases = (
+				880CF6031D264BDF006E2916 /* Sources */,
+				880CF6041D264BDF006E2916 /* Frameworks */,
+				880CF6051D264BDF006E2916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBFilterFrame;
+			productName = XBFilterFrame;
+			productReference = 880CF6071D264BDF006E2916 /* XBFilterFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880CF6221D264BDF006E2916 /* XBFilterFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880CF63A1D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrameTests" */;
+			buildPhases = (
+				880CF61F1D264BDF006E2916 /* Sources */,
+				880CF6201D264BDF006E2916 /* Frameworks */,
+				880CF6211D264BDF006E2916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880CF6251D264BDF006E2916 /* PBXTargetDependency */,
+			);
+			name = XBFilterFrameTests;
+			productName = XBFilterFrameTests;
+			productReference = 880CF6231D264BDF006E2916 /* XBFilterFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880CF62D1D264BDF006E2916 /* XBFilterFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880CF63D1D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrameUITests" */;
+			buildPhases = (
+				880CF62A1D264BDF006E2916 /* Sources */,
+				880CF62B1D264BDF006E2916 /* Frameworks */,
+				880CF62C1D264BDF006E2916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880CF6301D264BDF006E2916 /* PBXTargetDependency */,
+			);
+			name = XBFilterFrameUITests;
+			productName = XBFilterFrameUITests;
+			productReference = 880CF62E1D264BDF006E2916 /* XBFilterFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880CF5FF1D264BDF006E2916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.WYZ;
+				TargetAttributes = {
+					880CF6061D264BDF006E2916 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					880CF6221D264BDF006E2916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 880CF6061D264BDF006E2916;
+					};
+					880CF62D1D264BDF006E2916 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 880CF6061D264BDF006E2916;
+					};
+				};
+			};
+			buildConfigurationList = 880CF6021D264BDF006E2916 /* Build configuration list for PBXProject "XBFilterFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880CF5FE1D264BDF006E2916;
+			productRefGroup = 880CF6081D264BDF006E2916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880CF6061D264BDF006E2916 /* XBFilterFrame */,
+				880CF6221D264BDF006E2916 /* XBFilterFrameTests */,
+				880CF62D1D264BDF006E2916 /* XBFilterFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880CF6051D264BDF006E2916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880CF61D1D264BDF006E2916 /* LaunchScreen.storyboard in Resources */,
+				880CF6531D264C15006E2916 /* XBFilterFrameSectionFooter.xib in Resources */,
+				880CF6501D264C15006E2916 /* XBFilterFrameCell.xib in Resources */,
+				880CF61A1D264BDF006E2916 /* Assets.xcassets in Resources */,
+				880CF6551D264C15006E2916 /* XBFilterFrameSectionHeader.xib in Resources */,
+				880CF6151D264BDF006E2916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF6211D264BDF006E2916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF62C1D264BDF006E2916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880CF6031D264BDF006E2916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880CF64E1D264C15006E2916 /* XBFilterFrame.m in Sources */,
+				880CF6121D264BDF006E2916 /* ViewController.m in Sources */,
+				880CF66C1D2653DB006E2916 /* NSObject+Extension.m in Sources */,
+				880CF6181D264BDF006E2916 /* XBFilterFrame.xcdatamodeld in Sources */,
+				880CF60F1D264BDF006E2916 /* AppDelegate.m in Sources */,
+				880CF6541D264C15006E2916 /* XBFilterFrameSectionHeader.m in Sources */,
+				880CF65E1D264DCC006E2916 /* UIView+Extension.m in Sources */,
+				880CF6B41D2662E9006E2916 /* UIControl+Extension.m in Sources */,
+				880CF6511D264C15006E2916 /* XBFilterFrameParamMaker.m in Sources */,
+				880CF6661D2651D4006E2916 /* XBColorDefinition.m in Sources */,
+				880CF6621D264EB1006E2916 /* UIColor+Extension.m in Sources */,
+				880CF6691D265293006E2916 /* UIButton+Extension.m in Sources */,
+				880CF60C1D264BDF006E2916 /* main.m in Sources */,
+				880CF6521D264C15006E2916 /* XBFilterFrameSectionFooter.m in Sources */,
+				880CF6581D264C6B006E2916 /* XBBasicParams.m in Sources */,
+				880CF64F1D264C15006E2916 /* XBFilterFrameCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF61F1D264BDF006E2916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880CF6281D264BDF006E2916 /* XBFilterFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880CF62A1D264BDF006E2916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880CF6331D264BDF006E2916 /* XBFilterFrameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880CF6251D264BDF006E2916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880CF6061D264BDF006E2916 /* XBFilterFrame */;
+			targetProxy = 880CF6241D264BDF006E2916 /* PBXContainerItemProxy */;
+		};
+		880CF6301D264BDF006E2916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880CF6061D264BDF006E2916 /* XBFilterFrame */;
+			targetProxy = 880CF62F1D264BDF006E2916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880CF6131D264BDF006E2916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880CF6141D264BDF006E2916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880CF61B1D264BDF006E2916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880CF61C1D264BDF006E2916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880CF6351D264BDF006E2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XBFilterFrame/XBFilterFrame.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		880CF6361D264BDF006E2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XBFilterFrame/XBFilterFrame.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880CF6381D264BDF006E2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBFilterFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		880CF6391D264BDF006E2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBFilterFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		880CF63B1D264BDF006E2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XBFilterFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBFilterFrame.app/XBFilterFrame";
+			};
+			name = Debug;
+		};
+		880CF63C1D264BDF006E2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XBFilterFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBFilterFrame.app/XBFilterFrame";
+			};
+			name = Release;
+		};
+		880CF63E1D264BDF006E2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XBFilterFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XBFilterFrame;
+			};
+			name = Debug;
+		};
+		880CF63F1D264BDF006E2916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XBFilterFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYZ.XBFilterFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XBFilterFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880CF6021D264BDF006E2916 /* Build configuration list for PBXProject "XBFilterFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880CF6351D264BDF006E2916 /* Debug */,
+				880CF6361D264BDF006E2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880CF6371D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880CF6381D264BDF006E2916 /* Debug */,
+				880CF6391D264BDF006E2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880CF63A1D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880CF63B1D264BDF006E2916 /* Debug */,
+				880CF63C1D264BDF006E2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880CF63D1D264BDF006E2916 /* Build configuration list for PBXNativeTarget "XBFilterFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880CF63E1D264BDF006E2916 /* Debug */,
+				880CF63F1D264BDF006E2916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		880CF6161D264BDF006E2916 /* XBFilterFrame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				880CF6171D264BDF006E2916 /* XBFilterFrame.xcdatamodel */,
+			);
+			currentVersion = 880CF6171D264BDF006E2916 /* XBFilterFrame.xcdatamodel */;
+			path = XBFilterFrame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 880CF5FF1D264BDF006E2916 /* Project object */;
+}
